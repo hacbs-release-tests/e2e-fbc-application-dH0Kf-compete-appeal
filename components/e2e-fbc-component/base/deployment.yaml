@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: e2e-fbc-component
     spec:
       containers:
-      - image: fbc:latest
+      - image: quay.io/hacbs-release-tests/dev-release-team-tenant/e2e-fbc-application/e2e-fbc-component@sha256:8588a183c85ddf0b7462ff0c73ecfd4c07c64520ecb7997ea1efff363992d730
         name: fbc
         ports:
         - containerPort: 50051
